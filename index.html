@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-CLASSIC PARK</title>
+    <style>
+        /* ========================================================== */
+        /* 1. 기본 스타일 (클리닝 및 표준화) */
+        /* ========================================================== */
+        body {
+            background-color: black;
+            color: white; /* 텍스트 기본 색상 */
+            font-family: "Times New Roman", Times, serif; /* Times New Roman 적용 */
+            font-size: 16px; /* 일반 설명 글씨 (본문) 크기 (권장 16px) */
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            /* 정렬을 위해 body 중앙 컨테이너 설정을 제거하고, .container를 사용합니다. */
+        }
+
+        /* 중앙 정렬 및 콘텐츠 영역 제한 */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto; /* 중앙 정렬 */
+            padding: 20px 0;
+            position: relative; /* 레이어 기준점 */
+        }
+        
+        /* 이미지 반응형 최적화 */
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 0;
+        }
+
+        /* ========================================================== */
+        /* 2. 제목 및 메뉴 스타일 */
+        /* ========================================================== */
+        .header-title {
+            font-size: 48pt;
+            font-weight: bold;
+            text-align: left; /* 나모 원본과 유사하게 왼쪽 정렬 유지 */
+            margin-bottom: 5px;
+            padding-left: 20px; /* 나모 원본 공백을 여백으로 대체 */
+        }
+
+        .nav-menu {
+            font-size: 20pt;
+            font-weight: bold;
+            color: #4ee8e8;
+            margin-bottom: 20px;
+            padding-left: 20px; /* 나모 원본 공백을 여백으로 대체 */
+        }
+
+        .nav-menu a {
+            color: #4ee8e8;
+            text-decoration: none; /* 링크 밑줄 제거 */
+            margin-right: 20px;
+        }
+
+        /* ========================================================== */
+        /* 3. 레이어 스타일 (나모 위치 유지) */
+        /* ========================================================== */
+        /* 나모 레이어1의 절대 좌표를 이용해 이미지 옆에 텍스트를 배치 */
+        .layer-text-box {
+            /* 나모가 지정했던 위치 (TOP: 170px; LEFT: 653px)를 절대 위치로 유지 */
+            position: absolute;
+            width: 621px;
+            height: 497px;
+            top: 170px; /* 나모 원본 위치 */
+            left: 653px; /* 나모 원본 위치 */
+            z-index: 1; 
+            font-size: 14pt; /* 나모에서 지정했던 폰트 크기 */
+            color: white;
+            padding-right: 20px; /* 텍스트 상자 오른쪽 여백 */
+        }
+
+        /* ========================================================== */
+        /* 4. 기타 스타일 */
+        /* ========================================================== */
+        .image-container {
+            /* 이미지를 감싸는 컨테이너 (나모 레이아웃을 위해 사용) */
+            padding-left: 20px; 
+            display: inline-block; /* 레이어와 이미지 배치를 돕기 위해 */
+        }
+
+        .footer-text {
+            color: #ff0033;
+            font-size: 14pt;
+            font-weight: bold;
+            margin-top: 100px;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-title">
+            K -CLASSIC PARK
+        </div>
+
+        <div class="nav-menu">
+            <a href="home.html">HOME</a>
+            <a href="artist.html">ARTIST</a>
+            <a href="about.html">ABOUT</a>
+            <a href="songs.html">SONGS</a>
+            <a href="kclassic.html">K-CLASSIC?</a>
+            <a href="youtube.html">U-TUBE</a>
+            <a href="about.html">ABOUT</a>
+            <a href="artistsitemap.html">ARTIST</a>
+            <a href="sitemap.html">SITE MAP</a>
+        </div>
+
+        <div class="main-content-area">
+            
+            <div class="image-container">
+                <img src="images/uni.jpg" width="600" height="400" alt="K-Classic Park 대표 이미지">
+            </div>
+            
+            <div class="layer-text-box">
+                <p>I am a singing poet and philosopher, principal baritone who has performed leading roles in opera in Italy and Korea.</p>
+                <p>I have established my musical foundation over years of recording and mastering over 1,000 works—spanning Opera, global Art Songs, and K-Classic repertoire. Now, I silence all external demands to embark on a new phase of creation: composing the deepest dialogue with my own soul.</p>
+                <p>My compositions oscillate between lyrical intimacy and dramatic intensity. Rooted in the power of an Opera Principal's voice, this music functions as a conversation with Love and Soul, explored through two distinct directions:</p>
+                
+                <p><strong>Intimate Confessions:</strong> A private dedication and dialogue with the person I loved most, structured within the emotional framework of K-Classic.</p>
+                
+                <p><strong>Vast Explorations:</strong> Philosophical and thematic explorations, including admiration for the cosmos and nature and humanity's destiny (often in Latin, Italian, and English).</p>
+                
+                <p>I am committed to transcending all conventions. Leveraging the expertise and power of an Opera Principal's voice, this Bandcamp channel will exclusively document the journey to establish my own 'New Tonality'—deconstructing and recreating all genres purely through my original work."</p>
+            </div>
+        </div>
+
+        <div class="footer-text">
+            HHHH GGGGG GGGGG GGGG GGGGG
+        </div>
+    </div>
+</body>
+</html>
